@@ -21,4 +21,4 @@ module.exports = {
   globals: {
     olark: true,
   },
-}
+};
