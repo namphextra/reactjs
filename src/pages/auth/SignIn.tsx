@@ -1,6 +1,6 @@
 import React from 'react';
 import { Input, Button } from 'antd';
-import APIFactory from '../../api/factory';
+import APIFactory from '@api/factory';
 
 const API = APIFactory.get('auth');
 

@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "@api": "./api"
+      }
+    }]
+  ],
+  "presets": ["react-app", "@babel/preset-typescript", "@babel/preset-env"]
+}
